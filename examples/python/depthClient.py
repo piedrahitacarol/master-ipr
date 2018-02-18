@@ -20,8 +20,8 @@ if yarp.Network.connect("/ecroSim/depthImage:o", "/python/ecroSim/depthImage:i")
 height = 96
 width = 128
 # Create numpy array to receive the image and the YARP image wrapped around it
-img_array = numpy.zeros((height, width), dtype=numpy.uint16)
-yarp_image = yarp.ImageMono16()
+img_array = numpy.zeros((height, width), dtype=numpy.float32)
+yarp_image = yarp.ImageFloat()
 yarp_image.resize(width, height)
 yarp_image.setExternal(img_array, img_array.shape[1], img_array.shape[0])
 # Read the data from the port into the image
