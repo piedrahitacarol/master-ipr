@@ -2,19 +2,19 @@
 # Author: Juan G Victores
 # CopyPolicy: Released under the terms of the GNU GPL v2.0.
 
-set(appname openrave)
+set(appname 2018-ptmr)
 
 find_package(YARP REQUIRED)
 
 list(APPEND CMAKE_MODULE_PATH ${YARP_MODULE_PATH})
 include(YarpInstallationHelpers)
-yarp_configure_external_installation(2018-ptmr-openrave-models)
+yarp_configure_external_installation(2018-ptmr)
 
 #yarp_install(FILES ymanager.ini DESTINATION ${2018_PTMR_DATA_INSTALL_DIR})  # Cleaner than ${2018_PTMR_ROBOTS_INSTALL_DIR}/../ or similar.
 
 file(GLOB ecro ${CMAKE_CURRENT_SOURCE_DIR}/ecro/*.xml)
 file(GLOB ecro/models ${CMAKE_CURRENT_SOURCE_DIR}/ecro/models/*.wrl)
 
-yarp_install(FILES ${ecro} DESTINATION ${2018-PTMR-OPENRAVE-MODELS_CONTEXTS_INSTALL_DIR}/${appname}/ecro)
-yarp_install(FILES ${ecro/models} DESTINATION ${2018-PTMR-OPENRAVE-MODELS_CONTEXTS_INSTALL_DIR}/${appname}/ecro/models)
+yarp_install(FILES ${ecro} DESTINATION ${2018-PTMR_CONTEXTS_INSTALL_DIR}/${appname}/ecro)
+yarp_install(FILES ${ecro/models} DESTINATION ${2018-PTMR_CONTEXTS_INSTALL_DIR}/${appname}/ecro/models)
 
