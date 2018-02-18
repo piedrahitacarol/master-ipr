@@ -2,7 +2,7 @@
 # Author: Juan G Victores
 # CopyPolicy: Released under the terms of the GNU GPL v2.0.
 
-set(appname 2018-ptmr)
+set(appname openrave)
 
 find_package(YARP REQUIRED)
 
