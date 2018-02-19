@@ -7,8 +7,8 @@
 ---
 ### Programación
 
-- Por guiado
 - Textual
+- Por guiado
 
 ---
 ### Communicaciones
