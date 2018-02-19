@@ -54,5 +54,5 @@
 - Multi-plataforma
 - Lenguajes de programación
 - CMake
-- Flexibilidad
-- Rapidez
+- Flexible
+- Ligero
