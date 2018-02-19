@@ -39,3 +39,8 @@
 - YARP
 - OROCOS-RTT
 - OPENRTM-AIST
+---
+### Paradigmas de comunicaciones
+
+- Cliente/Servidor
+- Publicador/Suscriptor
