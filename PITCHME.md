@@ -32,10 +32,6 @@
 
 - Genéricas
 - Para robótica
----
-### Infraestructuras para Communicaciones sobre IP para robótica
-
-Component-Based Software Engineering (CBSE)
 
 ---
 ### Infraestructuras para Communicaciones sobre IP para robótica
@@ -44,6 +40,11 @@ Component-Based Software Engineering (CBSE)
 - YARP
 - OROCOS-RTT
 - OPENRTM-AIST
+
+---
+### Infraestructuras para Communicaciones sobre IP para robótica
+
+Component-Based Software Engineering (CBSE)
 
 ---
 ### Paradigmas de comunicaciones
