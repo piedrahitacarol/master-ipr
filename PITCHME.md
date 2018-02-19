@@ -11,7 +11,7 @@
 - Textual
 
 ---
-### Comms
+### Communicaciones
 
 - I/O Digital
 - Buses de campo
