@@ -32,3 +32,10 @@
 
 - Genéricas
 - Para robótica
+---
+### Infraestructuras para Communicaciones sobre IP para robótica
+
+- ROS
+- YARP
+- OROCOS-RTT
+- OPENRTM-AIST
