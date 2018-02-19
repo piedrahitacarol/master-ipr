@@ -50,7 +50,7 @@
 ####### Component-Based Software Engineering (CBSE) #######
 ---
 ### Wishlist
-- API
+- API estable
 - Lenguajes de programación
 - Sistemas operaticvos
 - CMake
