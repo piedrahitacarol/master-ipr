@@ -17,8 +17,12 @@ if yarp.Network.connect("/ecroSim/depthImage:o", "/python/ecroSim/depthImage:i")
     print "[error] Could not connect"
     quit()
 
-height = 96
-width = 128
+# Just once to get measurements
+yarp_image_tmp = yarp.ImageFloat()
+input_port.read(yarp_image_tmp)
+height = yarp_image_tmp.height()
+width = yarp_image_tmp.width()
+
 # Create numpy array to receive the image and the YARP image wrapped around it
 img_array = numpy.zeros((height, width), dtype=numpy.float32)
 yarp_image = yarp.ImageFloat()
