@@ -1,6 +1,7 @@
-# 2018-ptmr
 ----
-### Planificación de Tareas y Movimientos de Robots
+## 2018-ptmr
+----
+#### Planificación de Tareas y Movimientos de Robots
 ----
 ---
 - [Install CMake](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-cmake.md)
