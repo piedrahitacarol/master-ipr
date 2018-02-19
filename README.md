@@ -5,4 +5,4 @@
 
 ## Installation
 
-Installation instructions for installing from source can be found [here](doc/openrave-yarp-plugins-install.md).
+Installation instructions for installing from source can be found [here](doc/2018-ptmr-install.md).
