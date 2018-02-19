@@ -7,21 +7,21 @@ import time
 
 yarp.Network.init()
 
-if yarp.Network.checkNetwork() != True:
+if yarp.Network.checkNetwork() not True:
     print "[error] Please try running yarp server"
     quit()
 
 input_port = yarp.Port()
 input_port.open("/python/ecroSim/depthImage:i")
-if yarp.Network.connect("/ecroSim/depthImage:o", "/python/ecroSim/depthImage:i") != True:
+if yarp.Network.connect("/ecroSim/depthImage:o", "/python/ecroSim/depthImage:i") not True:
     print "[error] Could not connect"
     quit()
 
 # Just once to get measurements
-yarp_image_tmp = yarp.ImageFloat()
-input_port.read(yarp_image_tmp)
-height = yarp_image_tmp.height()
-width = yarp_image_tmp.width()
+yarp_tmp_image = yarp.ImageFloat()
+input_port.read(yarp_tmp_image)
+height = yarp_tmp_image.height()
+width = yarp_tmp_image.width()
 
 # Create numpy array to receive the image and the YARP image wrapped around it
 img_array = numpy.zeros((height, width), dtype=numpy.float32)
