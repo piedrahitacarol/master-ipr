@@ -5,7 +5,7 @@ import asrob_yarp_devices
 
 yarp.Network.init()
 
-if yarp.Network.checkNetwork() != True:
+if not yarp.Network.checkNetwork():
     print "[error] Please try running yarp server"
     quit()
 

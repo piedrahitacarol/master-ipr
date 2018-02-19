@@ -7,13 +7,13 @@ import time
 
 yarp.Network.init()
 
-if yarp.Network.checkNetwork() not True:
+if not yarp.Network.checkNetwork():
     print "[error] Please try running yarp server"
     quit()
 
 input_port = yarp.Port()
 input_port.open("/python/ecroSim/depthImage:i")
-if yarp.Network.connect("/ecroSim/depthImage:o", "/python/ecroSim/depthImage:i") not True:
+if not yarp.Network.connect("/ecroSim/depthImage:o", "/python/ecroSim/depthImage:i"):
     print "[error] Could not connect"
     quit()
 
