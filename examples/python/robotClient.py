@@ -36,3 +36,5 @@ yarp.Time.delay(3)  # delay in [seconds]
 
 print "stopMovement()"
 robot.stopMovement()
+
+robotDevice.close()
