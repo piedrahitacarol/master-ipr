@@ -42,12 +42,8 @@
 - OPENRTM-AIST
 
 #VSLIDE
-### Infraestructuras para Communicaciones sobre IP para robótica
-
-Component-Based Software Engineering (CBSE)
-
-#VSLIDE
 ### Paradigmas de comunicaciones
 
 - Cliente/Servidor
 - Publicador/Suscriptor
+* Component-Based Software Engineering (CBSE)
