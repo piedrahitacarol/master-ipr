@@ -35,6 +35,7 @@
 ---
 ### Infraestructuras para Communicaciones sobre IP para robótica
 
+Component-Based Software Engineering (CBSE)
 - ROS
 - YARP
 - OROCOS-RTT
