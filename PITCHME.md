@@ -20,7 +20,7 @@
 - Textual
 - Por guiado
 
----
+#HSLIDE
 ### Communicaciones
 
 - I/O Digital
