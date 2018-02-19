@@ -18,7 +18,7 @@
 - IP (Internet/Ethernet)
 
 ---
-### Infraestructuras para Communicaciones IP
+### Infraestructuras para Communicaciones sobre IP
 
 - Genéricas
 - Para robótica
