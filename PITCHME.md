@@ -43,7 +43,6 @@
 ---
 ### Paradigmas de comunicaciones
 
+Component-Based Software Engineering (CBSE)
 - Cliente/Servidor
 - Publicador/Suscriptor
-
-Component-Based Software Engineering (CBSE)
