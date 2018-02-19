@@ -51,8 +51,8 @@
 ---
 ### Wishlist
 - API
-- Multi-plataforma
 - Lenguajes de programación
+- Sistemas operaticvos
 - CMake
 - Flexible
 - Ligero
