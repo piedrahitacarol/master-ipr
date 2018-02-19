@@ -47,4 +47,4 @@
 - Cliente/Servidor
 - Publicador/Suscriptor
 ----
-######## Component-Based Software Engineering (CBSE) 
+####### Component-Based Software Engineering (CBSE) #######
