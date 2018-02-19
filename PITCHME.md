@@ -7,7 +7,7 @@
 #VSLIDE
 
 - Simuladores
-- Infraestructuras para Communicaciones sobre IP
+- Infraestructuras para communicaciones sobre IP
 ---
 ### Simuladores
 
