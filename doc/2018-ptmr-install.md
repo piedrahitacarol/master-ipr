@@ -24,9 +24,9 @@ sudo ldconfig  # Just in case...
 cd  # go home
 ```
 
-For CMake `find_package(ROBOTICSLAB_OPENRAVE_YARP_PLUGINS REQUIRED)`, you may also be interested in adding the following to your `~/.bashrc` or `~/.profile`:
+For CMake `find_package(ROBOTICSLAB_2018_PTMR REQUIRED)`, you may also be interested in adding the following to your `~/.bashrc` or `~/.profile`:
 ```bash
-export ROBOTICSLAB_OPENRAVE_YARP_PLUGINS_DIR=$HOME/repos/2018-ptmr/build  # Points to where OPENRAVE_YARP_PLUGINSConfig.cmake is generated upon running CMake
+export ROBOTICSLAB_2018_PTMR_DIR=$HOME/repos/2018-ptmr/build  # Points to where 2018_PTMRConfig.cmake is generated upon running CMake
 ```
 
 For additional options use `ccmake` instead of `cmake`.
