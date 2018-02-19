@@ -16,3 +16,9 @@
 - I/O Digital
 - Buses de campo
 - IP (Internet/Ethernet)
+
+---
+### Infraestructuras para Communicaciones IP
+
+- Genéricas
+- Para robótica
