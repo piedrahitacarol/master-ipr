@@ -40,9 +40,10 @@
 - OROCOS-RTT
 - OPENRTM-AIST
 
-Component-Based Software Engineering (CBSE)
 ---
 ### Paradigmas de comunicaciones
 
 - Cliente/Servidor
 - Publicador/Suscriptor
+
+Component-Based Software Engineering (CBSE)
