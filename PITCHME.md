@@ -35,6 +35,11 @@
 ---
 ### Infraestructuras para Communicaciones sobre IP para robótica
 
+Component-Based Software Engineering (CBSE)
+
+---
+### Infraestructuras para Communicaciones sobre IP para robótica
+
 - ROS
 - YARP
 - OROCOS-RTT
@@ -43,6 +48,5 @@
 ---
 ### Paradigmas de comunicaciones
 
-Component-Based Software Engineering (CBSE)
 - Cliente/Servidor
 - Publicador/Suscriptor
