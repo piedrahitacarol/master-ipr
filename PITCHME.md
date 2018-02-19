@@ -48,3 +48,11 @@
 - Publicador/Suscriptor
 ----
 ####### Component-Based Software Engineering (CBSE) #######
+---
+### Wishlist
+- API
+- Multi-plataforma
+- Lenguajes de programación
+- CMake
+- Flexibilidad
+- Rapidez
