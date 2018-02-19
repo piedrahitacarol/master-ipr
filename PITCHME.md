@@ -4,6 +4,13 @@
 ----
 ### Planificación de Tareas y Movimientos de Robots
 ----
+#VSLIDE
+
+### Simuladores
+
+- Gazebo
+- OpenRAVE
+
 ---
 ### Programación
 
