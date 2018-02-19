@@ -41,12 +41,12 @@
 - OROCOS-RTT
 - OPENRTM-AIST
 
----
+#VSLIDE
 ### Infraestructuras para Communicaciones sobre IP para robótica
 
 Component-Based Software Engineering (CBSE)
 
----
+#VSLIDE
 ### Paradigmas de comunicaciones
 
 - Cliente/Servidor
