@@ -57,5 +57,6 @@
 - Sistemas operaticvos
 - CMake
 - Flexible
+- Plugins
 - Ligero
 - Comunidad
