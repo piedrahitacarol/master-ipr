@@ -13,6 +13,8 @@
 
 - Gazebo
 - OpenRAVE
+- V-REP
+- DRAKE
 
 #VSLIDE
 ### Programación
