@@ -25,8 +25,10 @@
 
 - Gazebo
 - OpenRAVE
+- MuJoCo
 - V-REP
 - DRAKE
+- RobotStudio
 
 #VSLIDE
 ### Simuladores: Wishlist Reloaded
