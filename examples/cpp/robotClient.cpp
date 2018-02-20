@@ -13,31 +13,31 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    yarp::os::Property options;
-    options.put("device", "RobotClient"); // our device (a dynamically loaded library)
-    options.put("name", "/ecroSim"); // remote port through which we'll talk to the server
+    yarp::os::Property robotOptions;
+    robotOptions.put("device", "RobotClient"); // our device (a dynamically loaded library)
+    robotOptions.put("name", "/ecroSim"); // remote port through which we'll talk to the server
 
-    yarp::dev::PolyDriver dd;
-    if ( ! dd.open(options) )
+    yarp::dev::PolyDriver robotDevice;
+    if ( ! robotDevice.open(robotOptions) )
     {
         printf("Device not available.\n");
-        dd.close();
+        robotDevice.close();
         return 1;
     }
 
     asrob::IRobotManager *robot;
 
-    if (!dd.view(robot))
+    if ( ! robotDevice.view(robot) )
     {
         printf("[error] Problems acquiring interface\n");
-        dd.close();
+        robotDevice.close();
         return 1;
     }
     printf("[success] acquired motor interface\n");
 
     robot->moveForward(1);
 
-    dd.close();
+    robotDevice.close();
 
     return 0;
 }
