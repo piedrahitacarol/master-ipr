@@ -52,6 +52,7 @@
 ####### Component-Based Software Engineering (CBSE) #######
 ---
 ### Wishlist
+
 - API estable
 - Lenguajes de programación
 - Sistemas operaticvos
@@ -60,3 +61,7 @@
 - Plugins
 - Ligero
 - Comunidad
+---
+### Preguntas
+
+- Setup / grupo ???
