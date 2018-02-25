@@ -16,23 +16,29 @@ robotDevice = yarp.PolyDriver(robotOptions)  # calls open -> connects
 
 robot = asrob_yarp_devices.viewIRobotManager(robotDevice)  # view the actual interface
 
-print "moveForward(3)"
-robot.moveForward(3)
+print "moveForward(4.3)"
+robot.moveForward(4.3)
 
-print "delay(3)"
-yarp.Time.delay(3)  # delay in [seconds]
+print "delay(4.5)"
+yarp.Time.delay(4.5)  # delay in [seconds]
 
-print "robot.turnRight(3)"
-robot.turnRight(3)
+print "robot.turnLeft(100.0)"
+robot.turnLeft(100.0)
 
-print "delay(5)"
-yarp.Time.delay(5)  # delay in [seconds]
+print "delay(2.0)"
+yarp.Time.delay(2.0)  # delay in [seconds]
 
-print "moveForward(3)"
-robot.moveForward(3)
+print "moveForward(1.2)"
+robot.moveForward(1.2)
 
-print "delay(3)"
-yarp.Time.delay(3)  # delay in [seconds]
+print "delay(1.5)"
+yarp.Time.delay(1.5)  # delay in [seconds]
+
+print "robot.turnLeft(-25.0)"
+robot.turnLeft(-25.0)
+
+print "delay(1.0)"
+yarp.Time.delay(1.0)  # delay in [seconds]
 
 print "stopMovement()"
 robot.stopMovement()

@@ -35,23 +35,29 @@ int main(int argc, char *argv[])
     }
     printf("[success] acquired motor interface\n");
 
-    printf("moveForward(3)\n");
-    robot->moveForward(3);
+    printf("moveForward(4.3)\n");
+    robot->moveForward(4.3);
 
-    printf("delay(3)\n");
-    yarp::os::Time::delay(3);  // delay in [seconds]
+    printf("delay(4.5)\n");
+    yarp::os::Time::delay(4.5);  // delay in [seconds]
 
-    printf("robot.turnRight(3)\n");
-    robot->turnRight(3);
+    printf("robot.turnLeft(100.0)\n");
+    robot->turnLeft(100.0);
 
-    printf("delay(5)\n");
-    yarp::os::Time::delay(5);  // delay in [seconds]
+    printf("delay(2.0)\n");
+    yarp::os::Time::delay(2.0);  // delay in [seconds]
 
-    printf("moveForward(3)\n");
-    robot->moveForward(3);
+    printf("moveForward(1.2)\n");
+    robot->moveForward(1.2);
 
-    printf("delay(3)\n");
-    yarp::os::Time::delay(3);  // delay in [seconds]
+    printf("delay(1.5)\n");
+    yarp::os::Time::delay(1.5);  // delay in [seconds]
+
+    printf("robot.turnLeft(-25.0)\n");
+    robot->turnLeft(-25.0);
+
+    printf("delay(1.0)\n");
+    yarp::os::Time::delay(1.0);  // delay in [seconds]
 
     printf("stopMovement()\n");
     robot->stopMovement();
