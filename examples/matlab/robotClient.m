@@ -5,32 +5,41 @@ robotClient.open('/matlab/ecroSim/rpc:c');
 yarp.Network.connect('/matlab/ecroSim/rpc:c','/ecroSim/rpc:s');
 
 
-disp 'moveForward(3)'
+disp 'moveForward(4.3)'
 b = yarp.Bottle;
 b.addVocab( yarp.Vocab.encode('movf') );
 b.addDouble(3.0);
 robotClient.write(b);
 
-disp 'delay(3)'
-pause(3);
+disp 'delay(4.5)'
+pause(4.5);
 
-disp 'turnRight(3)'
+disp 'turnLeft(100.0)'
 b.clear();
-b.addVocab( yarp.Vocab.encode('trnr') );
-b.addDouble(3.0);
+b.addVocab( yarp.Vocab.encode('trnl') );
+b.addDouble(100.0);
 robotClient.write(b);
 
-disp 'delay(5)'
-pause(5);
+disp 'delay(2.0)'
+pause(2.0);
 
-disp 'moveForward(3)'
+disp 'moveForward(1.2)'
 b.clear();
 b.addVocab( yarp.Vocab.encode('movf') );
-b.addDouble(3.0);
+b.addDouble(1.2);
 robotClient.write(b);
 
-disp 'delay(3)'
-pause(3);
+disp 'delay(1.5)'
+pause(1.5);
+
+disp 'turnLeft(-25.0)'
+b.clear();
+b.addVocab( yarp.Vocab.encode('trnl') );
+b.addDouble(-25.0);
+robotClient.write(b);
+
+disp 'delay(1.0)'
+pause(1.0);
 
 disp 'stopMovement()'
 b.clear();
