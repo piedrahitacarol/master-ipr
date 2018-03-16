@@ -1,4 +1,4 @@
-- Origin: [ -3   3  0 ]
-- Goal:   [  3  -3  0 ]
+- Origin: [ -3   3 ]
+- Goal:   [  3  -3 ]
 
 ![map2.png](map2.png)
