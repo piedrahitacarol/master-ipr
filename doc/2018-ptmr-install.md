@@ -22,13 +22,7 @@ git clone https://github.com/roboticslab-uc3m/2018-ptmr  # Download 2018-ptmr so
 cd 2018-ptmr; mkdir build; cd build; cmake ..  # Configure the 2018-ptmr software
 make -j$(nproc)  # Compile
 sudo make install  # Install :-)
-sudo ldconfig  # Just in case...
 cd  # go home
 ```
 
-For CMake `find_package(ROBOTICSLAB_2018_PTMR REQUIRED)`, you may also be interested in adding the following to your `~/.bashrc` or `~/.profile`:
-```bash
-export ROBOTICSLAB_2018_PTMR_DIR=$HOME/repos/2018-ptmr/build  # Points to where 2018_PTMRConfig.cmake is generated upon running CMake
-```
-
-For additional options use `ccmake` instead of `cmake`.
+You should now have programs such as `ptmrSim1` (map1).
