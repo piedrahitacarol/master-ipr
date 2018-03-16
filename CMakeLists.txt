@@ -61,7 +61,6 @@ set(2018_PTMR_LINK_DIRS CACHE INTERNAL "appended link dirs" FORCE)
 set(2018_PTMR_LIBRARIES CACHE INTERNAL "appended libraries" FORCE)
 
 # add main contents
-add_subdirectory(scripts)
 add_subdirectory(map1/openrave)
 
 # export our variables to a 2018_PTMRConfig.cmake creation
