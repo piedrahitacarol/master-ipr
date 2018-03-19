@@ -21,7 +21,7 @@ try:
 
     env=Environment()
     env.SetViewer('qtcoin')
-    env.Load('/usr/local/share/2018-ptmr/contexts/openrave/map1.env.xml')
+    env.Load('/usr/local/share/2018-ptmr/contexts/openrave/map2.env.xml')
 
     OpenraveYarpPluginLoader = RaveCreateModule(env,'OpenraveYarpPluginLoader')
 
