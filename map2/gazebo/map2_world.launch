@@ -7,15 +7,15 @@
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="use_sim_time" value="true"/>
     <arg name="debug" value="false"/>
-    <arg name="world_name" value="$(find turtlebot_gazebo)/worlds/turtlebot_rm_map2.world"/>
+    <arg name="world_name" value="$(find turtlebot_gazebo)/worlds/map2.world"/>
   </include>
   
   <include file="$(find turtlebot_gazebo)/launch/includes/kobuki_args.launch.xml"><!-- hardcode, was $(arg base).launch.xml -->
     <arg name="base" value="$(arg base)"/>
     <arg name="stacks" value="$(arg stacks)"/>
     <arg name="3d_sensor" value="$(arg 3d_sensor)"/>
-    <arg name="x" value="-3.0"/>
-    <arg name="y" value="3.0"/>
+    <arg name="x" value="2.5"/>
+    <arg name="y" value="5.5"/>
   </include>
   
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
