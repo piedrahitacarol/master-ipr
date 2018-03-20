@@ -87,6 +87,8 @@ public:
 
         bool done = false;
 
+        int goalParentId;
+
         while( ! done )
         {
             int keepNodeSize = nodes.size();
@@ -104,6 +106,7 @@ public:
                 if( intMap[tmpX][tmpY] == 4)
                 {
                     printf("GOOOOL!!!\n");
+                    goalParentId = nodes[nodeIdx]->_id;
                     done = true;
                     break;
                 }
@@ -121,6 +124,7 @@ public:
                 if( intMap[tmpX][tmpY] == 4)
                 {
                     printf("GOOOOL!!!\n");
+                    goalParentId = nodes[nodeIdx]->_id;
                     done = true;
                     break;
 
@@ -139,6 +143,7 @@ public:
                 if( intMap[tmpX][tmpY] == 4)
                 {
                     printf("GOOOOL!!!\n");
+                    goalParentId = nodes[nodeIdx]->_id;
                     done = true;
                     break;
                 }
@@ -156,6 +161,7 @@ public:
                 if( intMap[tmpX][tmpY] == 4)
                 {
                     printf("GOOOOL!!!\n");
+                    goalParentId = nodes[nodeIdx]->_id;
                     done = true;
                     break;
                 }
@@ -170,6 +176,27 @@ public:
             }
             this->dump();
         }
+
+        printf("%%%%%%%%%%%%%%%%%%%%\n");
+        bool ok = false;
+        while( ! ok )
+        {
+            for(int nodeIdx=0;nodeIdx<nodes.size();nodeIdx++)
+            {
+                if( nodes[nodeIdx]->_id == goalParentId )
+                {
+                    nodes[nodeIdx]->dump();
+                    goalParentId = nodes[nodeIdx]->_parentId;
+                    if( goalParentId == 0)
+                    {
+
+                        ok = true;
+                        printf("%%%%%%%%%%%%%%%%%%%%2\n");
+                    }
+                }
+            }
+        }
+
         return true;
     } //--main
 
