@@ -79,6 +79,9 @@ public:
         intMap[DEFAULT_END_X][DEFAULT_END_Y] = 4;
         this->dump();
 
+        Node* init = new Node(DEFAULT_START_X,DEFAULT_START_Y,0,-2);
+        nodes.push_back(init);
+
         return true;
     }
 
