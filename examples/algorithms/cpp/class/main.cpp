@@ -3,6 +3,10 @@
 #include <sstream>
 
 #define DEFAULT_FILE "/home/yo/map1.csv"
+#define DEFAULT_START_X 2
+#define DEFAULT_START_Y 2
+#define DEFAULT_END_X 7
+#define DEFAULT_END_Y 2
 
 class Node
 {
@@ -71,6 +75,8 @@ public:
 
         file.close();
 
+        intMap[DEFAULT_START_X][DEFAULT_START_Y] = 3;
+        intMap[DEFAULT_END_X][DEFAULT_END_Y] = 4;
         this->dump();
 
         return true;
