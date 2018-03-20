@@ -15,7 +15,10 @@ public:
       _x = x; _y = y;
       _id = id; _parentId = parentId;
     }
-
+    void dump()
+    {
+        printf("---------- x %d, y %d, id %d, pid %d\n",_x,_y,_id,_parentId);
+    }
     int _x,_y,_id,_parentId;
 };
 
@@ -81,6 +84,17 @@ public:
 
         Node* init = new Node(DEFAULT_START_X,DEFAULT_START_Y,0,-2);
         nodes.push_back(init);
+        int keepNodeSize = nodes.size();
+        printf("size: %d\n",keepNodeSize);
+
+        for(int nodeIdx;nodeIdx<keepNodeSize;nodeIdx++)
+        {
+            nodes[nodeIdx]->dump();
+            printf("left\n");
+            {
+
+            }
+        }
 
         return true;
     }
