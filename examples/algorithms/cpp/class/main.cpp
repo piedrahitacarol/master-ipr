@@ -85,19 +85,80 @@ public:
         Node* init = new Node(DEFAULT_START_X,DEFAULT_START_Y,0,-2);
         nodes.push_back(init);
         int keepNodeSize = nodes.size();
-        printf("size: %d\n",keepNodeSize);
+        printf("-------------------------nodes: %d\n",keepNodeSize);
 
-        for(int nodeIdx;nodeIdx<keepNodeSize;nodeIdx++)
+        for(int nodeIdx=0;nodeIdx<keepNodeSize;nodeIdx++)
         {
             nodes[nodeIdx]->dump();
-            printf("left\n");
-            {
 
+            int tmpX, tmpY;
+
+            printf("up\n");
+            tmpX = nodes[nodeIdx]->_x - 1;
+            tmpY = nodes[nodeIdx]->_y;
+            if( intMap[tmpX][tmpY] == 4)
+            {
+                printf("GOOOOL!!!\n");
             }
+            else if( intMap[tmpX][tmpY] == 0 )
+            {
+                printf("Create node\n");
+                Node* node = new Node(tmpX,tmpY,nodes.size(),nodes[nodeIdx]->_id);
+                intMap[tmpX][tmpY] = 2;
+                nodes.push_back(node);
+            }
+
+            printf("down\n");
+            tmpX = nodes[nodeIdx]->_x + 1;
+            tmpY = nodes[nodeIdx]->_y;
+            if( intMap[tmpX][tmpY] == 4)
+            {
+                printf("GOOOOL!!!\n");
+            }
+            else if( intMap[tmpX][tmpY] == 0 )
+            {
+                printf("Create node\n");
+                Node* node = new Node(tmpX,tmpY,nodes.size(),nodes[nodeIdx]->_id);
+                intMap[tmpX][tmpY] = 2;
+                nodes.push_back(node);
+            }
+
+            printf("right\n");
+            tmpX = nodes[nodeIdx]->_x;
+            tmpY = nodes[nodeIdx]->_y + 1;
+            if( intMap[tmpX][tmpY] == 4)
+            {
+                printf("GOOOOL!!!\n");
+            }
+            else if( intMap[tmpX][tmpY] == 0 )
+            {
+                printf("Create node\n");
+                Node* node = new Node(tmpX,tmpY,nodes.size(),nodes[nodeIdx]->_id);
+                intMap[tmpX][tmpY] = 2;
+                nodes.push_back(node);
+            }
+
+            printf("left\n");
+            tmpX = nodes[nodeIdx]->_x;
+            tmpY = nodes[nodeIdx]->_y - 1;
+            if( intMap[tmpX][tmpY] == 4)
+            {
+                printf("GOOOOL!!!\n");
+            }
+            else if( intMap[tmpX][tmpY] == 0 )
+            {
+                printf("Create node\n");
+                Node* node = new Node(tmpX,tmpY,nodes.size(),nodes[nodeIdx]->_id);
+                intMap[tmpX][tmpY] = 2;
+                nodes.push_back(node);
+            }
+
         }
+        this->dump();
+
 
         return true;
-    }
+    } //--main
 
 private:
     std::vector<std::vector<int>> intMap;  //0empty,1wall,2visited,3start,4end
