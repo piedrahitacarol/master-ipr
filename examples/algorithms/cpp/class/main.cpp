@@ -1,7 +1,8 @@
 #include <vector>
 #include <fstream>
+#include <sstream>
 
-#define DEFAULT_FILE "/home/yo/repos/2018-ptmr/map1/map1.csv"
+#define DEFAULT_FILE "/home/yo/map1.csv"
 
 class Node
 {
@@ -17,6 +18,37 @@ public:
 class Program
 {
 public:
+    bool parseFileLine(std::vector<int>& intsOnFileLine)
+    {
+        intsOnFileLine.clear();
+
+        if( file.eof() )
+            return false;
+
+        std::string s;
+        getline(file, s);
+        std::stringstream ss(s);
+
+        int d;
+        while (ss >> d)
+            intsOnFileLine.push_back(d);
+
+        return true;
+    }
+
+    void dump()
+    {
+        for(int i=0;i<intMap.size();i++)
+        {
+            for(int j=0;j<intMap[0].size();j++)
+            {
+                printf("%d ",intMap[i][j]);
+            }
+            printf("\n");
+        }
+
+    }
+
     bool run()
     {
         std::string fileName = DEFAULT_FILE;
@@ -28,12 +60,24 @@ public:
         }
         printf("Opened file: %s\n",fileName.c_str());
 
+        std::vector<int> intsOnFileLine;
+
+        while( this->parseFileLine(intsOnFileLine) )
+        {
+            if ( intsOnFileLine.size() == 0 ) continue;
+
+            intMap.push_back( intsOnFileLine );
+        }
+
+        file.close();
+
+        this->dump();
 
         return true;
     }
 
 private:
-    std::vector<std::vector<int>> mapInt;  //0empty,1wall,2visited,3start,4end
+    std::vector<std::vector<int>> intMap;  //0empty,1wall,2visited,3start,4end
     std::vector<Node*> nodes;
     std::ifstream file;
 };
