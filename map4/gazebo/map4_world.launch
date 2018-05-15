@@ -15,7 +15,7 @@
     <arg name="stacks" value="$(arg stacks)"/>
     <arg name="3d_sensor" value="$(arg 3d_sensor)"/>
     <arg name="x" value="4.5"/>
-    <arg name="y" value="10.5"/>
+    <arg name="y" value="14.5"/>
   </include>
   
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
