@@ -2,7 +2,7 @@
     <KinBody name="kinectKinbody">
 	    <Body type="dynamic" name="kinectMain">
 	        <Geom type="box">
-	            <Render>./wrls/kinect.wrl</Render>
+	            <Render>./models/kinect.wrl</Render>
 	            <Extents>.02 .07 .01</Extents>
 	            <diffuseColor>0 0 0</diffuseColor>
 	            <transparency>0.5</transparency>
