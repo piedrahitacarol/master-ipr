@@ -18,7 +18,7 @@ Our software integrates the previous dependencies. Note that you will be prompte
 ```bash
 cd  # go home
 mkdir -p repos; cd repos  # create $HOME/repos if it does not exist; then, enter it
-git clone https://github.com/roboticslab-uc3m/2018-ptmr  # Download 2018-ptmr software from the repository
+git clone https://github.com/jgvictores/2018-ptmr  # Download 2018-ptmr software from the repository
 cd 2018-ptmr; mkdir build; cd build; cmake ..  # Configure the 2018-ptmr software
 make -j$(nproc)  # Compile
 sudo make install  # Install :-)
