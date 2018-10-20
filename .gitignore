@@ -32,4 +32,13 @@
 *.app
 
 # Misc
+*~
+*.swp
+*.orig
+tags
+CMakeLists.txt.user
 **/build*/
+/external/
+/.cproject
+/.project
+/doc/html/
