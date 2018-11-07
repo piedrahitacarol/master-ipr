@@ -209,27 +209,6 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_1_1" type="static">
-    <Geom type="box">
-      <Extents>0.25 0.25 0.5</Extents>
-      <Translation>0.75 0.75 0.5</Translation>
-      <diffuseColor>.5 .5 .5</diffuseColor>
-    </Geom>
-  </Body>
-  <Body name="box_1_2" type="static">
-    <Geom type="box">
-      <Extents>0.25 0.25 0.5</Extents>
-      <Translation>0.75 1.25 0.5</Translation>
-      <diffuseColor>.5 .5 .5</diffuseColor>
-    </Geom>
-  </Body>
-  <Body name="box_1_3" type="static">
-    <Geom type="box">
-      <Extents>0.25 0.25 0.5</Extents>
-      <Translation>0.75 1.75 0.5</Translation>
-      <diffuseColor>.5 .5 .5</diffuseColor>
-    </Geom>
-  </Body>
   <Body name="box_1_12" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -251,20 +230,6 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_2_1" type="static">
-    <Geom type="box">
-      <Extents>0.25 0.25 0.5</Extents>
-      <Translation>1.25 0.75 0.5</Translation>
-      <diffuseColor>.5 .5 .5</diffuseColor>
-    </Geom>
-  </Body>
-  <Body name="box_2_2" type="static">
-    <Geom type="box">
-      <Extents>0.25 0.25 0.5</Extents>
-      <Translation>1.25 1.25 0.5</Translation>
-      <diffuseColor>.5 .5 .5</diffuseColor>
-    </Geom>
-  </Body>
   <Body name="box_2_12" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -283,13 +248,6 @@
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>1.75 0.25 0.5</Translation>
-      <diffuseColor>.5 .5 .5</diffuseColor>
-    </Geom>
-  </Body>
-  <Body name="box_3_1" type="static">
-    <Geom type="box">
-      <Extents>0.25 0.25 0.5</Extents>
-      <Translation>1.75 0.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -356,6 +314,20 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_6_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>3.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_6_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>3.25 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_6_12" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -405,6 +377,20 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_7_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>3.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_7_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>3.75 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_7_12" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -426,10 +412,17 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_8_6" type="static">
+  <Body name="box_8_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>4.25 3.25 0.5</Translation>
+      <Translation>4.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_8_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>4.25 4.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -454,10 +447,17 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_9_6" type="static">
+  <Body name="box_9_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>4.75 3.25 0.5</Translation>
+      <Translation>4.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_9_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>4.75 4.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -482,10 +482,17 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_10_6" type="static">
+  <Body name="box_10_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>5.25 3.25 0.5</Translation>
+      <Translation>5.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_10_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>5.25 4.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -510,10 +517,17 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_11_6" type="static">
+  <Body name="box_11_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>5.75 3.25 0.5</Translation>
+      <Translation>5.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_11_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>5.75 4.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -538,10 +552,17 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_12_6" type="static">
+  <Body name="box_12_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>6.25 3.25 0.5</Translation>
+      <Translation>6.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_12_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 4.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -566,6 +587,55 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_12_15" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 7.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_12_16" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 8.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_12_17" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 8.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_12_18" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 9.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_12_19" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 9.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_12_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_12_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.25 13.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_12_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -580,10 +650,31 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_13_6" type="static">
+  <Body name="box_13_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>6.75 3.25 0.5</Translation>
+      <Translation>6.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_13_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_13_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_13_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 6.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -601,6 +692,41 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_13_16" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 8.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_13_17" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 8.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_13_18" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 9.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_13_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_13_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>6.75 13.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_13_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -612,6 +738,34 @@
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>7.25 0.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_14_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_14_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_14_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_14_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 6.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -629,6 +783,34 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_14_16" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 8.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_14_17" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 8.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_14_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_14_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.25 13.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_14_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -640,6 +822,34 @@
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>7.75 0.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_15_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_15_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.75 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_15_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.75 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_15_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.75 6.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -657,6 +867,27 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_15_16" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.75 8.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_15_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.75 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_15_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>7.75 13.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_15_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -671,10 +902,59 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_16_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_16_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.25 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_16_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.25 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_16_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.25 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_16_14" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>8.25 7.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_16_15" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.25 7.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_16_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.25 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_16_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.25 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -692,10 +972,59 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_17_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_17_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.75 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_17_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.75 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_17_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.75 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_17_14" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>8.75 7.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_17_24" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.75 12.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_17_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.75 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_17_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>8.75 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -713,6 +1042,20 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_18_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_18_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.25 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_18_12" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -727,10 +1070,31 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_18_14" type="static">
+  <Body name="box_18_23" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>9.25 7.25 0.5</Translation>
+      <Translation>9.25 11.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_18_24" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.25 12.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_18_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.25 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_18_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.25 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -748,17 +1112,45 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_19_11" type="static">
+  <Body name="box_19_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>9.75 5.75 0.5</Translation>
+      <Translation>9.75 1.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_19_12" type="static">
+  <Body name="box_19_22" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>9.75 6.25 0.5</Translation>
+      <Translation>9.75 11.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_19_23" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.75 11.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_19_24" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.75 12.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_19_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.75 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_19_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>9.75 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -776,10 +1168,52 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_20_11" type="static">
+  <Body name="box_20_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>10.25 5.75 0.5</Translation>
+      <Translation>10.25 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_20_21" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.25 10.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_20_22" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.25 11.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_20_23" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.25 11.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_20_24" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.25 12.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_20_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.25 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_20_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.25 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -797,10 +1231,59 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_21_11" type="static">
+  <Body name="box_21_3" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>10.75 5.75 0.5</Translation>
+      <Translation>10.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_21_20" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.75 10.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_21_21" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.75 10.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_21_22" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.75 11.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_21_23" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.75 11.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_21_24" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.75 12.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_21_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.75 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_21_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>10.75 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -818,52 +1301,45 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_22_11" type="static">
+  <Body name="box_22_21" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>11.25 5.75 0.5</Translation>
+      <Translation>11.25 10.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_22_12" type="static">
+  <Body name="box_22_22" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>11.25 6.25 0.5</Translation>
+      <Translation>11.25 11.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_22_13" type="static">
+  <Body name="box_22_23" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>11.25 6.75 0.5</Translation>
+      <Translation>11.25 11.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_22_14" type="static">
+  <Body name="box_22_24" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>11.25 7.25 0.5</Translation>
+      <Translation>11.25 12.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_22_15" type="static">
+  <Body name="box_22_25" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>11.25 7.75 0.5</Translation>
+      <Translation>11.25 12.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
-  <Body name="box_22_16" type="static">
+  <Body name="box_22_26" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
-      <Translation>11.25 8.25 0.5</Translation>
-      <diffuseColor>.5 .5 .5</diffuseColor>
-    </Geom>
-  </Body>
-  <Body name="box_22_17" type="static">
-    <Geom type="box">
-      <Extents>0.25 0.25 0.5</Extents>
-      <Translation>11.25 8.75 0.5</Translation>
+      <Translation>11.25 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -881,6 +1357,41 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_23_22" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>11.75 11.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_23_23" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>11.75 11.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_23_24" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>11.75 12.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_23_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>11.75 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_23_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>11.75 13.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_23_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -892,6 +1403,62 @@
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>12.25 0.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_10" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 5.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_11" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 5.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_23" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 11.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_24" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 12.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_25" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 12.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_24_26" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.25 13.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -909,6 +1476,48 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_25_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.75 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_25_10" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.75 5.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_25_11" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.75 5.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_25_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.75 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_25_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.75 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_25_14" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>12.75 7.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_25_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -920,6 +1529,62 @@
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>13.25 0.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_8" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 4.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_10" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 5.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_11" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 5.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_14" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 7.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_26_15" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.25 7.75 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
@@ -937,6 +1602,76 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_27_7" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 3.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_8" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 4.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_10" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 5.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_11" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 5.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_14" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 7.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_15" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 7.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_27_16" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>13.75 8.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_27_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -951,6 +1686,90 @@
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
+  <Body name="box_28_6" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 3.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_7" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 3.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_8" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 4.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_10" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 5.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_11" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 5.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_14" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 7.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_15" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 7.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_16" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 8.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_28_17" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.25 8.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
   <Body name="box_28_27" type="static">
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
@@ -962,6 +1781,132 @@
     <Geom type="box">
       <Extents>0.25 0.25 0.5</Extents>
       <Translation>14.75 0.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_1" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 0.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_2" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 1.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_3" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 1.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_4" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 2.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_5" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 2.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_6" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 3.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_7" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 3.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_8" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 4.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_9" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 4.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_10" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 5.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_11" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 5.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_12" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 6.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_13" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 6.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_14" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 7.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_15" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 7.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_16" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 8.25 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_17" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 8.75 0.5</Translation>
+      <diffuseColor>.5 .5 .5</diffuseColor>
+    </Geom>
+  </Body>
+  <Body name="box_29_18" type="static">
+    <Geom type="box">
+      <Extents>0.25 0.25 0.5</Extents>
+      <Translation>14.75 9.25 0.5</Translation>
       <diffuseColor>.5 .5 .5</diffuseColor>
     </Geom>
   </Body>
