@@ -14,7 +14,7 @@
     <arg name="base" value="$(arg base)"/>
     <arg name="stacks" value="$(arg stacks)"/>
     <arg name="3d_sensor" value="$(arg 3d_sensor)"/>
-    <arg name="x" value="1.75"/>
+    <arg name="x" value="7.75"/>
     <arg name="y" value="4.75"/>
   </include>
   
