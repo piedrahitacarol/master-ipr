@@ -14,4 +14,4 @@ The following is recommended if working with a Virtual Machine:
 
 ## Presentation
 
-https://gitpitch.com/jgvictores/2018-ptmr/develop
+https://gitpitch.com/jgvictores/2018-ptmr/master
