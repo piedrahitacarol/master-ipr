@@ -1,4 +1,4 @@
-# master-ipr
+# master-ipr (public)
 
 - Asignatura: Introducción a la Planificación de Robots (IPR)
 
