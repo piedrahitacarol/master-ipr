@@ -1,11 +1,10 @@
-# 2018-ptmr
+# master-ipr
 
-- Asignatura: Planificación de Tareas y Movimientos de Robots (PTMR)
-- Curso: 2017/18
+- Asignatura: Introducción a la Planificación de Robots (IPR)
 
 ## Installation
 
-Installation instructions for installing from source can be found [here](doc/2018-ptmr-install.md).
+Installation instructions for installing from source can be found [here](doc/master-ipr-install.md).
 
 ## Comms
 
@@ -15,4 +14,4 @@ The following is recommended if working with a Virtual Machine:
 
 ## Presentation
 
-https://gitpitch.com/jgvictores/2018-ptmr/develop
+https://gitpitch.com/jgvictores/master-ipr/master

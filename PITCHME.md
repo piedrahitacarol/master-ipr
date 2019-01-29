@@ -1,13 +1,13 @@
 
 ----
-## 2018-ptmr
+## master-ipr
 ----
 ### Planificación de Tareas y Movimientos de Robots
 ----
 ##### TUTORIAL 1: OpenRAVE/YARP/MATLAB
 ----
 #VSLIDE
-## 2018-ptmr
+## master-ipr
 ----
 - Simuladores
 - Infraestructuras para communicaciones sobre IP

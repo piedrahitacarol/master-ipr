@@ -7,7 +7,7 @@ set(appname openrave)
 find_package(YARP REQUIRED)
 
 include(YarpInstallationHelpers)
-yarp_configure_external_installation(2018-ptmr)
+yarp_configure_external_installation(master-ipr)
 
 #yarp_install(FILES ymanager.ini DESTINATION ${2018_PTMR_DATA_INSTALL_DIR})  # Cleaner than ${2018_PTMR_ROBOTS_INSTALL_DIR}/../ or similar.
 
@@ -18,4 +18,4 @@ file(GLOB ecro/models ${CMAKE_CURRENT_SOURCE_DIR}/ecro/models/*.wrl)
 yarp_install(FILES ${xml} DESTINATION ${2018-PTMR_CONTEXTS_INSTALL_DIR}/${appname})
 yarp_install(FILES ${ecro} DESTINATION ${2018-PTMR_CONTEXTS_INSTALL_DIR}/${appname}/ecro)
 yarp_install(FILES ${ecro/models} DESTINATION ${2018-PTMR_CONTEXTS_INSTALL_DIR}/${appname}/ecro/models)
-yarp_install(PROGRAMS ptmrSim11 DESTINATION ${CMAKE_INSTALL_BINDIR})
+yarp_install(PROGRAMS iprSim11 DESTINATION ${CMAKE_INSTALL_BINDIR})
