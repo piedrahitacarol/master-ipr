@@ -2,13 +2,13 @@
 
 # Authors: see AUTHORS.md at project root.
 # CopyPolicy: released under the terms of the LGPLv2.1, see LICENSE at project root.
-# URL: https://github.com/jgvictores/2018-ptmr
+# URL: https://github.com/jgvictores/master-ipr
 
 # Dependencies:
 # - https://github.com/roboticslab-uc3m/openrave-yarp-plugins  (provides OpenraveYarpPluginLoader, YarpOpenraveRobotManager, YarpOpenraveRGBDSensor)
 # - https://github.com/asrob-uc3m/yarp-devices  (provides RobotServer)
 #
-# Also counts on `/usr/local/share/2018-ptmr-openrave-models/contexts/openrave/ecro/mapping_room.env.xml` model installed from this repo
+# Also counts on `/usr/local/share/master-ipr-openrave-models/contexts/openrave/ecro/mapping_room.env.xml` model installed from this repo
 
 import openravepy
 from openravepy import *
@@ -21,7 +21,7 @@ try:
 
     env=Environment()
     env.SetViewer('qtcoin')
-    env.Load('/usr/local/share/2018-ptmr/contexts/openrave/map8.env.xml')
+    env.Load('/usr/local/share/master-ipr/contexts/openrave/map8.env.xml')
 
     OpenraveYarpPluginLoader = RaveCreateModule(env,'OpenraveYarpPluginLoader')
 

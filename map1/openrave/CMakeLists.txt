@@ -7,7 +7,7 @@ set(appname openrave)
 find_package(YARP REQUIRED)
 
 include(YarpInstallationHelpers)
-yarp_configure_external_installation(2018-ptmr)
+yarp_configure_external_installation(master-ipr)
 
 #yarp_install(FILES ymanager.ini DESTINATION ${2018_PTMR_DATA_INSTALL_DIR})  # Cleaner than ${2018_PTMR_ROBOTS_INSTALL_DIR}/../ or similar.
 

@@ -1,6 +1,6 @@
 # Authors: see AUTHORS.md at project root.
 # CopyPolicy: released under the terms of the LGPLv2.1, see LICENSE at project root.
-# URL: https://github.com/jgvictores/2018-ptmr
+# URL: https://github.com/jgvictores/master-ipr
 
 cmake_minimum_required(VERSION 2.6)
 
