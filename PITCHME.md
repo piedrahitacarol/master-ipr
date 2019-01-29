@@ -2,7 +2,7 @@
 ----
 ## master-ipr
 ----
-### Planificación de Tareas y Movimientos de Robots
+### Introducción a la Planificación de Robots (IPR)
 ----
 ##### TUTORIAL 1: OpenRAVE/YARP/MATLAB
 ----
