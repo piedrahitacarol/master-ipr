@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-FILE = "/home/jcgvicto/map1.csv"
+FILE_NAME = "/home/jcgvicto/map1.csv"
 START_X = 2
 START_Y = 2
 END_X = 7
@@ -20,3 +20,21 @@ class Node:
 
 init = Node(START_X, START_Y, 0, -2)
 init.dump()
+
+charMap = []
+
+def dumpMap():
+    for line in charMap:
+        print line
+
+with open(FILE_NAME) as f:
+    line = f.readline()
+    while line:
+        charLine = line.strip().split(',')
+        charMap.append(charLine)
+        line = f.readline()
+
+charMap[START_X][START_Y] = '3'
+charMap[END_X][END_Y] = '4'
+
+dumpMap()
