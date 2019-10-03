@@ -108,4 +108,14 @@ while not done:
             nodes.append(newNode)
 
         dumpMap()
-        
+
+print("%%%%%%%%%%%%%%%%%%%")
+ok = False
+while not ok:
+    for node in nodes:
+        if( node.myId == goalParentId ):
+            node.dump()
+            goalParentId = node.parentId
+            if( goalParentId == -2):
+                print("%%%%%%%%%%%%%%%%%2")
+                ok = True
