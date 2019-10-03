@@ -18,8 +18,12 @@ class Node:
                          " | id "+str(self.myId)+\
                          " | parentId "+str(self.parentId))
 
+nodes = []
+
 init = Node(START_X, START_Y, 0, -2)
-init.dump()
+# init.dump()
+
+nodes.append(init)
 
 charMap = []
 
@@ -38,3 +42,13 @@ charMap[START_X][START_Y] = '3'
 charMap[END_X][END_Y] = '4'
 
 dumpMap()
+
+done = False
+goalParentId = -1
+
+while not done:
+    print("--------------------- number of nodes: "+str(len(nodes)))
+    for node in nodes:
+        node.dump()
+
+    break
