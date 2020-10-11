@@ -59,7 +59,7 @@ public:
     bool run()
     {
         std::string fileName = DEFAULT_FILE;
-        file.open(fileName);
+        file.open(fileName.c_str());
         if( ! file.is_open() )
         {
               printf("Not able to open file: %s\n",fileName.c_str());
