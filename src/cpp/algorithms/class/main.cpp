@@ -32,13 +32,19 @@ public:
         if( file.eof() )
             return false;
 
-        std::string s;
-        getline(file, s);
-        std::stringstream ss(s);
-
+        std::string csv;
+        getline(file, csv);
+        std::istringstream buffer(csv);
+        std::string token;
         int d;
-        while (ss >> d)
+
+        while( std::getline( buffer, token, ',' ) )
+        {
+            std::istringstream ss(token);
+            ss >> d;
             intsOnFileLine.push_back(d);
+        }
+
 
         return true;
     }
