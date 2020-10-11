@@ -68,6 +68,7 @@ yarp_install(DIRECTORY map9 DESTINATION ${MASTER-IPR_DATA_INSTALL_DIR})
 yarp_install(DIRECTORY map10 DESTINATION ${MASTER-IPR_DATA_INSTALL_DIR})
 yarp_install(DIRECTORY map11 DESTINATION ${MASTER-IPR_DATA_INSTALL_DIR})
 yarp_install(DIRECTORY share DESTINATION ${MASTER-IPR_DATA_INSTALL_DIR})
+yarp_install(PROGRAMS src/bash/iprSim DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 # Configure and create uninstall target.
 include(AddUninstallTarget)
