@@ -201,7 +201,7 @@ public:
     } //--main
 
 private:
-    std::vector<std::vector<int>> intMap;  //0empty,1wall,2visited,3start,4end
+    std::vector<std::vector<int> > intMap;  //0empty,1wall,2visited,3start,4end
     std::vector<Node*> nodes;
     std::ifstream file;
 };
