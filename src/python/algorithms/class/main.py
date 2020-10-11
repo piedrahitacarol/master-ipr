@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-FILE_NAME = "/home/jcgvicto/map1.csv"
+FILE_NAME = "/usr/local/share/master-ipr/map1/map1.csv"
 START_X = 2
 START_Y = 2
 END_X = 7

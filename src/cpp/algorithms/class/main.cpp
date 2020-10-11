@@ -2,7 +2,7 @@
 #include <fstream>
 #include <sstream>
 
-#define DEFAULT_FILE "/home/yo/map1.csv"
+#define DEFAULT_FILE "/usr/local/share/master-ipr/map1/map1.csv"
 #define DEFAULT_START_X 2
 #define DEFAULT_START_Y 2
 #define DEFAULT_END_X 7
