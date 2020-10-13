@@ -29,7 +29,7 @@ charMap = []
 
 def dumpMap():
     for line in charMap:
-        print line
+        print(line)
 
 with open(FILE_NAME) as f:
     line = f.readline()
