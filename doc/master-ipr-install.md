@@ -25,4 +25,4 @@ sudo make install  # Install :-)
 cd  # go home
 ```
 
-You should now have programs such as `iprSim1` (map1).
+You should now have programs such as `iprSim` (defaults to `map1`) or `iprSim map2`, etc.
