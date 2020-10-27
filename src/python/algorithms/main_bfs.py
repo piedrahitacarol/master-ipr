@@ -1,10 +1,12 @@
 #! /usr/bin/env python
 
-FILE_NAME = "/usr/local/share/master-ipr/map1/map1.csv"
+FILE_NAME = "/home/cpiedra/master-ipr/map1/map1.csv"
 START_X = 2
 START_Y = 2
 END_X = 7
 END_Y = 2
+
+# 0: libre, 1: ocupado(muro/obstáculo), 2:visitado, 3:start, 4:goal
 
 class Node:
     def __init__(self, x, y, myId, parentId):
