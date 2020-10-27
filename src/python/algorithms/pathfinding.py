@@ -62,6 +62,9 @@ def breadth_fs(charMap, args):
                 goal_parent_id = current_node.my_id
                 return goal_parent_id, visited
 
+            if charMap[neighbor[0]][neighbor[1]] == '2' or charMap[neighbor[0]][neighbor[1]] == '1':
+                continue
+
             if charMap[neighbor[0]][neighbor[1]] == '0':
                 print("mark visited")
                 charMap[neighbor[0]][neighbor[1]] = '2'
@@ -97,6 +100,9 @@ def depth_fs(charMap, args):
                 print("GOALLLL!!!")
                 goal_parent_id = current_node.my_id
                 return goal_parent_id, visited
+
+            if charMap[neighbor[0]][neighbor[1]] == '2' or charMap[neighbor[0]][neighbor[1]] == '1':
+                continue
 
             if charMap[neighbor[0]][neighbor[1]] == '0':
                 print("mark visited")
@@ -140,6 +146,10 @@ def best_fs(charMap, args):
                 print("GOALLLL!!!")
                 goal_parent_id = current_node.my_id
                 return goal_parent_id, closed
+
+            if charMap[neighbor[0]][neighbor[1]] == '2' or charMap[neighbor[0]][neighbor[1]] == '1':
+                continue
+
             # free coordinate
             if charMap[neighbor[0]][neighbor[1]] == '0':
                 print("mark visited")
@@ -148,7 +158,6 @@ def best_fs(charMap, args):
                 # if neighbor is free, create node and calculate distance to end
                 new_node = Node(neighbor[0], neighbor[1], counter, current_node.my_id)
                 new_node.dist = abs(new_node.x - end_node.x) + abs(new_node.y - end_node.y)
-
             # place neighbor nodes in other list so we can compare them later
             n_nodes.append(new_node)
 
