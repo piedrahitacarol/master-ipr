@@ -23,5 +23,5 @@ Para utilizar uno de los algoritmos en el map11, con inicio en (5,4) y fin en (1
 $ python pathfinding.py --map ROOT/master-ipr/map11/map11.csv --start_x 5 --start_y 4 --end_x 13 --end_y 20 --algorithm ALGORITMO
 ```
 
-ROOT: Ruta donde se encuentra la carpeta master-ipr
-ALGORITMO: Hay que elegir entre 'best', 'breadth' y 'depth'. En caso de no pasar este argumento, se utiliza por defecto el algoritmo best first search.
+- ROOT: Ruta donde se encuentra la carpeta master-ipr
+- ALGORITMO: Hay que elegir entre 'best', 'breadth' y 'depth'. En caso de no pasar este argumento, se utiliza por defecto el algoritmo best first search.
